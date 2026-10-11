@@ -1,0 +1,6 @@
+1  fastapi
+2  uvicorn
+3  pydantic
+4  joblib
+5  pandas
+6  scikit-learn
