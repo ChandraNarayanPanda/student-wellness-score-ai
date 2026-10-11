@@ -1,6 +1,7 @@
-fastapi
-pydantic
-scikit-learn==<your version>
-numpy==<your version>
-pandas==<your version>   # only if main.py uses it
-joblib==<your version>   # only if main.py uses it
+fastapi                   0.143.0
+joblib                    1.6.0
+numpy                     2.2.6
+pandas                    2.2.2
+pydantic                  2.14.0
+pydantic_core             2.50.0
+scikit-learn              1.7.2
