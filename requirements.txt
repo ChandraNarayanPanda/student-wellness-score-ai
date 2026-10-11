@@ -1,6 +1,6 @@
-1  fastapi
-2  uvicorn
-3  pydantic
-4  joblib
-5  pandas
-6  scikit-learn
+fastapi
+pydantic
+scikit-learn==<your version>
+numpy==<your version>
+pandas==<your version>   # only if main.py uses it
+joblib==<your version>   # only if main.py uses it

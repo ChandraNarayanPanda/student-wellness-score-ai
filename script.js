@@ -6,7 +6,8 @@
   // ---------------------------------------------------------
   // For deployment, set window.API_BASE before this script loads, e.g.
   // <script>window.API_BASE = "https://your-api.example.com";</script>
-  const API_BASE = window.API_BASE || "http://127.0.0.1:8000";
+  const isLocal = ["localhost", "127.0.0.1"].includes(location.hostname);
+const API_BASE = window.API_BASE ?? (isLocal ? "http://127.0.0.1:8000" : "");
   const REQUEST_TIMEOUT_MS = 20000;
 
   // Shown when the predicted score is in the "strained" band.
