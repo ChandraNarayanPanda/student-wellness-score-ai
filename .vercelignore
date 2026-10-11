@@ -1,0 +1,4 @@
+﻿Student_mental.csv
+*.ipynb
+.ipynb_checkpoints
+__pycache__
